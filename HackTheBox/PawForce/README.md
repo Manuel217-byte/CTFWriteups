@@ -21,3 +21,7 @@ UNION SELECT 0, flag, '', '', '' FROM flag --
 <img width="1744" height="1058" alt="image" src="https://github.com/user-attachments/assets/0e246783-6284-4624-86aa-d6dce4f503be" />
 
 There the flag is revealed
+
+Risk Mitigation strategy
+
+Since this was SQL injection ways that this can be prevented in the future is with parameter binding and input validation. With every time you prepare an SQL statement with input, bind variables properly. With input validation you only permit a small set of values.
